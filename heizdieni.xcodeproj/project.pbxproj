@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157A72DE1D29622500BFAD68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157A72DD1D29622500BFAD68 /* AppDelegate.swift */; };
+		157A72E01D29622500BFAD68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157A72DF1D29622500BFAD68 /* ViewController.swift */; };
+		157A72E31D29622500BFAD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157A72E11D29622500BFAD68 /* Main.storyboard */; };
+		157A72E51D29622500BFAD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157A72E41D29622500BFAD68 /* Assets.xcassets */; };
+		157A72E81D29622500BFAD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157A72E61D29622500BFAD68 /* LaunchScreen.storyboard */; };
+		157A72F31D29622500BFAD68 /* heizdieniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157A72F21D29622500BFAD68 /* heizdieniTests.swift */; };
+		157A72FE1D29622500BFAD68 /* heizdieniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157A72FD1D29622500BFAD68 /* heizdieniUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		157A72EF1D29622500BFAD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 157A72D21D29622500BFAD68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 157A72D91D29622500BFAD68;
+			remoteInfo = heizdieni;
+		};
+		157A72FA1D29622500BFAD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 157A72D21D29622500BFAD68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 157A72D91D29622500BFAD68;
+			remoteInfo = heizdieni;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		157A72DA1D29622500BFAD68 /* heizdieni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heizdieni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		157A72DD1D29622500BFAD68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		157A72DF1D29622500BFAD68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		157A72E21D29622500BFAD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		157A72E41D29622500BFAD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		157A72E71D29622500BFAD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		157A72E91D29622500BFAD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157A72EE1D29622500BFAD68 /* heizdieniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = heizdieniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		157A72F21D29622500BFAD68 /* heizdieniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heizdieniTests.swift; sourceTree = "<group>"; };
+		157A72F41D29622500BFAD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157A72F91D29622500BFAD68 /* heizdieniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = heizdieniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		157A72FD1D29622500BFAD68 /* heizdieniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heizdieniUITests.swift; sourceTree = "<group>"; };
+		157A72FF1D29622500BFAD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		157A72D71D29622500BFAD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157A72EB1D29622500BFAD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157A72F61D29622500BFAD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		157A72D11D29622500BFAD68 = {
+			isa = PBXGroup;
+			children = (
+				157A72DC1D29622500BFAD68 /* heizdieni */,
+				157A72F11D29622500BFAD68 /* heizdieniTests */,
+				157A72FC1D29622500BFAD68 /* heizdieniUITests */,
+				157A72DB1D29622500BFAD68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		157A72DB1D29622500BFAD68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				157A72DA1D29622500BFAD68 /* heizdieni.app */,
+				157A72EE1D29622500BFAD68 /* heizdieniTests.xctest */,
+				157A72F91D29622500BFAD68 /* heizdieniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		157A72DC1D29622500BFAD68 /* heizdieni */ = {
+			isa = PBXGroup;
+			children = (
+				157A72DD1D29622500BFAD68 /* AppDelegate.swift */,
+				157A72DF1D29622500BFAD68 /* ViewController.swift */,
+				157A72E11D29622500BFAD68 /* Main.storyboard */,
+				157A72E41D29622500BFAD68 /* Assets.xcassets */,
+				157A72E61D29622500BFAD68 /* LaunchScreen.storyboard */,
+				157A72E91D29622500BFAD68 /* Info.plist */,
+			);
+			path = heizdieni;
+			sourceTree = "<group>";
+		};
+		157A72F11D29622500BFAD68 /* heizdieniTests */ = {
+			isa = PBXGroup;
+			children = (
+				157A72F21D29622500BFAD68 /* heizdieniTests.swift */,
+				157A72F41D29622500BFAD68 /* Info.plist */,
+			);
+			path = heizdieniTests;
+			sourceTree = "<group>";
+		};
+		157A72FC1D29622500BFAD68 /* heizdieniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				157A72FD1D29622500BFAD68 /* heizdieniUITests.swift */,
+				157A72FF1D29622500BFAD68 /* Info.plist */,
+			);
+			path = heizdieniUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		157A72D91D29622500BFAD68 /* heizdieni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157A73021D29622500BFAD68 /* Build configuration list for PBXNativeTarget "heizdieni" */;
+			buildPhases = (
+				157A72D61D29622500BFAD68 /* Sources */,
+				157A72D71D29622500BFAD68 /* Frameworks */,
+				157A72D81D29622500BFAD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = heizdieni;
+			productName = heizdieni;
+			productReference = 157A72DA1D29622500BFAD68 /* heizdieni.app */;
+			productType = "com.apple.product-type.application";
+		};
+		157A72ED1D29622500BFAD68 /* heizdieniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157A73051D29622500BFAD68 /* Build configuration list for PBXNativeTarget "heizdieniTests" */;
+			buildPhases = (
+				157A72EA1D29622500BFAD68 /* Sources */,
+				157A72EB1D29622500BFAD68 /* Frameworks */,
+				157A72EC1D29622500BFAD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				157A72F01D29622500BFAD68 /* PBXTargetDependency */,
+			);
+			name = heizdieniTests;
+			productName = heizdieniTests;
+			productReference = 157A72EE1D29622500BFAD68 /* heizdieniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		157A72F81D29622500BFAD68 /* heizdieniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157A73081D29622500BFAD68 /* Build configuration list for PBXNativeTarget "heizdieniUITests" */;
+			buildPhases = (
+				157A72F51D29622500BFAD68 /* Sources */,
+				157A72F61D29622500BFAD68 /* Frameworks */,
+				157A72F71D29622500BFAD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				157A72FB1D29622500BFAD68 /* PBXTargetDependency */,
+			);
+			name = heizdieniUITests;
+			productName = heizdieniUITests;
+			productReference = 157A72F91D29622500BFAD68 /* heizdieniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		157A72D21D29622500BFAD68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = bkaiser;
+				TargetAttributes = {
+					157A72D91D29622500BFAD68 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					157A72ED1D29622500BFAD68 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 157A72D91D29622500BFAD68;
+					};
+					157A72F81D29622500BFAD68 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 157A72D91D29622500BFAD68;
+					};
+				};
+			};
+			buildConfigurationList = 157A72D51D29622500BFAD68 /* Build configuration list for PBXProject "heizdieni" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 157A72D11D29622500BFAD68;
+			productRefGroup = 157A72DB1D29622500BFAD68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				157A72D91D29622500BFAD68 /* heizdieni */,
+				157A72ED1D29622500BFAD68 /* heizdieniTests */,
+				157A72F81D29622500BFAD68 /* heizdieniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		157A72D81D29622500BFAD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157A72E81D29622500BFAD68 /* LaunchScreen.storyboard in Resources */,
+				157A72E51D29622500BFAD68 /* Assets.xcassets in Resources */,
+				157A72E31D29622500BFAD68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157A72EC1D29622500BFAD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157A72F71D29622500BFAD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		157A72D61D29622500BFAD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157A72E01D29622500BFAD68 /* ViewController.swift in Sources */,
+				157A72DE1D29622500BFAD68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157A72EA1D29622500BFAD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157A72F31D29622500BFAD68 /* heizdieniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157A72F51D29622500BFAD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157A72FE1D29622500BFAD68 /* heizdieniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		157A72F01D29622500BFAD68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 157A72D91D29622500BFAD68 /* heizdieni */;
+			targetProxy = 157A72EF1D29622500BFAD68 /* PBXContainerItemProxy */;
+		};
+		157A72FB1D29622500BFAD68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 157A72D91D29622500BFAD68 /* heizdieni */;
+			targetProxy = 157A72FA1D29622500BFAD68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		157A72E11D29622500BFAD68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				157A72E21D29622500BFAD68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		157A72E61D29622500BFAD68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				157A72E71D29622500BFAD68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		157A73001D29622500BFAD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		157A73011D29622500BFAD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		157A73031D29622500BFAD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = heizdieni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkaiser.heizdieni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		157A73041D29622500BFAD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = heizdieni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkaiser.heizdieni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		157A73061D29622500BFAD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = heizdieniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkaiser.heizdieniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/heizdieni.app/heizdieni";
+			};
+			name = Debug;
+		};
+		157A73071D29622500BFAD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = heizdieniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkaiser.heizdieniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/heizdieni.app/heizdieni";
+			};
+			name = Release;
+		};
+		157A73091D29622500BFAD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = heizdieniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkaiser.heizdieniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = heizdieni;
+			};
+			name = Debug;
+		};
+		157A730A1D29622500BFAD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = heizdieniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkaiser.heizdieniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = heizdieni;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		157A72D51D29622500BFAD68 /* Build configuration list for PBXProject "heizdieni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157A73001D29622500BFAD68 /* Debug */,
+				157A73011D29622500BFAD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		157A73021D29622500BFAD68 /* Build configuration list for PBXNativeTarget "heizdieni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157A73031D29622500BFAD68 /* Debug */,
+				157A73041D29622500BFAD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		157A73051D29622500BFAD68 /* Build configuration list for PBXNativeTarget "heizdieniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157A73061D29622500BFAD68 /* Debug */,
+				157A73071D29622500BFAD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		157A73081D29622500BFAD68 /* Build configuration list for PBXNativeTarget "heizdieniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157A73091D29622500BFAD68 /* Debug */,
+				157A730A1D29622500BFAD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 157A72D21D29622500BFAD68 /* Project object */;
+}
